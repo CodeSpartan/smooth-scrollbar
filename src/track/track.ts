@@ -48,7 +48,7 @@ export class ScrollbarTrack implements I.ScrollbarTrack {
     }
 
     this._isShown = true;
-    this.element.classList.add('show');
+    this.element.classList.add('s-show');
   }
 
   /**
@@ -60,7 +60,7 @@ export class ScrollbarTrack implements I.ScrollbarTrack {
     }
 
     this._isShown = false;
-    this.element.classList.remove('show');
+    this.element.classList.remove('s-show');
   }
 
   update(

@@ -24,7 +24,7 @@ const SCROLLBAR_STYLE = `
   -webkit-transition: opacity 0.5s 0.5s ease-out;
           transition: opacity 0.5s 0.5s ease-out;
 }
-.scrollbar-track.show,
+.scrollbar-track.s-show,
 .scrollbar-track:hover {
   opacity: 1;
   -webkit-transition-delay: 0s;
